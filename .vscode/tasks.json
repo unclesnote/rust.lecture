@@ -1,0 +1,48 @@
+{
+    "version": "2.0",
+    "tasks": [
+      {
+        "label": "Cargo Check",
+        "type": "shell",
+        "command": "cargo",
+        "args": [
+          "check"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": ["$rustc"],
+        "detail": "Build the Rust project using Cargo"
+      },
+      {
+        "label": "Cargo Build",
+        "type": "shell",
+        "command": "cargo",
+        "args": [
+          "build"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": ["$rustc"],
+        "detail": "Build the Rust project using Cargo"
+      },
+      {
+        "label": "Cargo Run",
+        "type": "shell",
+        "command": "cargo",
+        "args": [
+          "run"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": ["$rustc"],
+        "detail": "Build the Rust project using Cargo"
+      }
+
+    ]
+  }

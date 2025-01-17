@@ -1,0 +1,5 @@
+{
+    "rust-analyzer.inlayHints.enable": false, // 전체 Inlay Hints 끄기
+    "rust-analyzer.inlayHints.typeHints": false, // 타입 힌트 끄기
+    "rust-analyzer.inlayHints.parameterHints": false // 매개변수 힌트 끄기
+}
