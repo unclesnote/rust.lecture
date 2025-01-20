@@ -31,8 +31,8 @@ mod lecture_10;
 
 fn main() {
     //lecture_01::main();
-    lecture_02::main();
-    //lecture_03::main();
+    //lecture_02::main();
+    lecture_03::main();
     //lecture_04::main();
     //lecture_05::main();
     //lecture_06::main();
